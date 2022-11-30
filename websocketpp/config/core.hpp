@@ -201,7 +201,7 @@ struct core {
      * If your application has a lot of connections or primarily deals in small
      * messages you may want to try setting this smaller.
      */
-    static const size_t connection_read_buffer_size = 16384;
+    static const size_t connection_read_buffer_size = 50000;
 
     /// Drop connections immediately on protocol error.
     /**
